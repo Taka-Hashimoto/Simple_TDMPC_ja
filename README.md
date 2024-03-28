@@ -1,5 +1,9 @@
 # Simple TD-MPCs (日本語版)
 
+[![TD-MPC](http://img.shields.io/badge/tdmpc-arxiv.2203.04955-B31B1B.svg)](https://arxiv.org/abs/2203.04955)
+[![TD-MPC2](http://img.shields.io/badge/tdmpc2-arxiv.2310.16828-B31B1B.svg)](https://arxiv.org/abs/2310.16828)
+
+
 JAX と Flax による TD-MPC シリーズの非公式実装リポジトリです。
 
 TD-MPC2の公式リポジトリが複数タスクの学習に対応しているのに対し、本リポジトリはシンプルさに重点を置き、単一タスクの学習に特化したコードを提供しています。
@@ -9,11 +13,11 @@ TD-MPC2の公式リポジトリが複数タスクの学習に対応している�
 ## 実行結果
 DM-Control環境でのプログラムのテスト結果は以下の通りです：
 
-* TD-MPC [![TD-MPC](http://img.shields.io/badge/paper-arxiv.2203.04955-B31B1B.svg)](https://arxiv.org/abs/2203.04955)
+* TD-MPC
 
 <アニメーション>
 
-* TD-MPC2 [![TD-MPC2](http://img.shields.io/badge/paper-arxiv.2310.16828-B31B1B.svg)](https://arxiv.org/abs/2310.16828)
+* TD-MPC2
 
 <アニメーション 2>
 
