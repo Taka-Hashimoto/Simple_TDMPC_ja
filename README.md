@@ -1,7 +1,7 @@
 # Simple TD-MPCs (日本語版)
 
-[![TD-MPC](http://img.shields.io/badge/paper-arxiv.2203.04955-B31B1B.svg)](https://arxiv.org/abs/2203.04955)
-[![TD-MPC2](http://img.shields.io/badge/paper-arxiv.2310.16828-B31B1B.svg)](https://arxiv.org/abs/2310.16828)
+[![TD-MPC](http://img.shields.io/badge/tdmpc-arxiv.2203.04955-B31B1B.svg)](https://arxiv.org/abs/2203.04955)
+[![TD-MPC2](http://img.shields.io/badge/tdmpc2-arxiv.2310.16828-B31B1B.svg)](https://arxiv.org/abs/2310.16828)
 
 
 JAX と Flax による TD-MPC シリーズの非公式実装リポジトリです。
