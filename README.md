@@ -2,14 +2,14 @@
 
 [![TD-MPC](http://img.shields.io/badge/tdmpc-arxiv.2203.04955-B31B1B.svg)](https://arxiv.org/abs/2203.04955) [![TD-MPC2](http://img.shields.io/badge/tdmpc2-arxiv.2310.16828-B31B1B.svg)](https://arxiv.org/abs/2310.16828)
 
-[JAX](https://github.com/google/jax)と[Flax](https://github.com/google/flax)によるTD-MPCシリーズの非公式実装です。
+[JAX](https://github.com/google/jax)・[Flax](https://github.com/google/flax)による TD-MPC および TD-MPC2 の実装です。
 
-TD-MPC2の公式実装が複数タスクの学習に対応しているのに対し、本実装はシンプルさに重点を置き、単一タスクの学習にのみ対応しています。
+TD-MPC2 の公式実装が複数タスクの学習に対応しているのに対し、本実装はシンプルさに重点を置き、単一タスクの学習にのみ対応しています。
 
-[CleanRL](https://github.com/vwxyzjn/cleanrl)に触発されて本実装では、アルゴリズムの処理を複数のファイルに分散させるのではなく、一つのファイル内でアルゴリズムの流れを追いやすいように設計し、可読性の向上を図っています。
+[CleanRL](https://github.com/vwxyzjn/cleanrl) に触発されて本実装では、アルゴリズムの処理を複数のファイルに分散させるのではなく、一つのファイル内でアルゴリズムの流れを追いやすいように設計し、可読性の向上を図っています。
 
 ## 実行結果
-[DM-Control](https://github.com/google-deepmind/dm_control)環境での学習テスト結果を以下に示します。
+[DM-Control](https://github.com/google-deepmind/dm_control) 環境での学習テスト結果を以下に示します。
 
 ### 学習曲線
 
@@ -62,7 +62,7 @@ docker run \
 ```
 
 ### 依存ライブラリのインストール
-[Poetry](https://python-poetry.org/docs/)を使用して依存ライブラリをインストールします。
+[Poetry](https://python-poetry.org/docs/) を使用して依存ライブラリをインストールします。
 
 ```
 poetry install
