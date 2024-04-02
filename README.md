@@ -2,14 +2,14 @@
 
 [![TD-MPC](http://img.shields.io/badge/tdmpc-arxiv.2203.04955-B31B1B.svg)](https://arxiv.org/abs/2203.04955) [![TD-MPC2](http://img.shields.io/badge/tdmpc2-arxiv.2310.16828-B31B1B.svg)](https://arxiv.org/abs/2310.16828)
 
-[JAX](https://github.com/google/jax) と [Flax](https://github.com/google/flax) による TD-MPC シリーズの非公式実装リポジトリです。
+[JAX](https://github.com/google/jax)と[Flax](https://github.com/google/flax)によるTD-MPCシリーズの非公式実装です。
 
-[TD-MPC2の公式リポジトリ](https://github.com/nicklashansen/tdmpc2)が複数タスクの学習に対応しているのに対し、本リポジトリはシンプルさに重点を置き、単一タスクの学習にのみ対応しています。
+TD-MPC2の公式実装が複数タスクの学習に対応しているのに対し、本実装はシンプルさに重点を置き、単一タスクの学習にのみ対応しています。
 
-[CleanRL] (https://github.com/vwxyzjn/cleanrl)に触発されて本実装では、アルゴリズムの処理を複数のファイルに分散させるのではなく、一つのファイル内でアルゴリズムの流れを追いやすいように設計し、可読性の向上を図っています。
+[CleanRL](https://github.com/vwxyzjn/cleanrl)に触発されて本実装では、アルゴリズムの処理を複数のファイルに分散させるのではなく、一つのファイル内でアルゴリズムの流れを追いやすいように設計し、可読性の向上を図っています。
 
 ## 実行結果
-[DM-Control](https://github.com/google-deepmind/dm_control) 環境での学習テスト結果を以下に示します。
+[DM-Control](https://github.com/google-deepmind/dm_control)環境での学習テスト結果を以下に示します。
 
 ### 学習曲線
 
@@ -17,8 +17,9 @@
 <img width="80%" alt="tdmpc_vs_tdmpc2.png (157.6 kB)" src="https://img.esa.io/uploads/production/attachments/21189/2024/04/01/160121/706d85d0-37bc-47b6-8ea1-ee979f3c518f.png">
 </div>
 
-### アニメーション
+### アニメーション 
 
+* TD-MPCによる学習結果
 <div style="text-align: center">
 <figure>
 <img width="19%" src="assets/tdmpc_cheetah.gif">
@@ -26,10 +27,10 @@
 <img width="19%" src="assets/tdmpc_walker.gif">
 <img width="19%" src="assets/tdmpc_dog.gif">
 <img width="19%" src="assets/tdmpc_humanoid.gif">
-<figcaption>TD-MPCによる学習結果</figcaption>
 </figure>
 </div>
 
+* TD-MPC2による学習結果
 <div style="text-align: center">
 <figure>
 <img width="19%" src="assets/tdmpc2_cheetah.gif">
@@ -37,7 +38,6 @@
 <img width="19%" src="assets/tdmpc2_walker.gif">
 <img width="19%" src="assets/tdmpc2_dog.gif">
 <img width="19%" src="assets/tdmpc2_humanoid.gif">
-<figcaption>TD-MPC2による学習結果</figcaption>
 </figure>
 </div>
 
@@ -45,7 +45,7 @@
 ## 環境設定
 以下の手順に従って実行環境を設定します。
 
-###  Dockerを使用したセットアップ
+### Dockerを使用したセットアップ
 
 ```
 # イメージのビルド
@@ -62,7 +62,7 @@ docker run \
 ```
 
 ### 依存ライブラリのインストール
-[Poetry](https://python-poetry.org/docs/) を使用して依存ライブラリをインストールします。
+[Poetry](https://python-poetry.org/docs/)を使用して依存ライブラリをインストールします。
 
 ```
 poetry install
