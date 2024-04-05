@@ -2,7 +2,7 @@
 
 [![TD-MPC](http://img.shields.io/badge/tdmpc-arxiv.2203.04955-B31B1B.svg)](https://arxiv.org/abs/2203.04955) [![TD-MPC2](http://img.shields.io/badge/tdmpc2-arxiv.2310.16828-B31B1B.svg)](https://arxiv.org/abs/2310.16828)
 
-[JAX](https://github.com/google/jax)・[Flax](https://github.com/google/flax)による TD-MPC および TD-MPC2 の実装です。
+[JAX](https://github.com/google/jax)/[Flax](https://github.com/google/flax)による TD-MPC および TD-MPC2 の実装です。
 
 TD-MPC2 の公式実装が複数タスクの学習に対応しているのに対し、本実装はシンプルさに重点を置き、単一タスクの学習にのみ対応しています。
 
@@ -14,7 +14,7 @@ TD-MPC2 の公式実装が複数タスクの学習に対応しているのに対
 ### 学習曲線
 
 <div style="text-align: center">
-<img width="80%" alt="tdmpc_vs_tdmpc2.png (157.6 kB)" src="https://img.esa.io/uploads/production/attachments/21189/2024/04/01/160121/706d85d0-37bc-47b6-8ea1-ee979f3c518f.png">
+<img width="80%" src="assets/test_result.png">
 </div>
 
 ### アニメーション 
@@ -45,7 +45,7 @@ TD-MPC2 の公式実装が複数タスクの学習に対応しているのに対
 ## 環境設定
 以下の手順に従って実行環境を設定します。
 
-### Dockerを使用したセットアップ
+### Docker のセットアップ
 
 ```
 # イメージのビルド
@@ -104,7 +104,7 @@ poetry install
     ```
 
 
-## 参照リポジトリ
+## 参考にしたリポジトリ
 
 - [TD-MPC](https://github.com/nicklashansen/tdmpc)
 - [TD-MPC2](https://github.com/nicklashansen/tdmpc2)
