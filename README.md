@@ -70,14 +70,15 @@ poetry install
 
 ### TD-MPC の実行
 
-    ```
-    poetry run python src/tdmpc.py 
-    ```
+```
+poetry run python src/tdmpc.py 
+```
+
 ### TD-MPC2 の実行
 
-    ```
-    poetry run python src/tdmpc2.py 
-    ```
+```
+poetry run python src/tdmpc2.py 
+```
 
 ## オプション
 
