@@ -1,8 +1,6 @@
 # Simple TD-MPCs (日本語版)
 
-[![TD-MPC](http://img.shields.io/badge/tdmpc-arxiv.2203.04955-B31B1B.svg)](https://arxiv.org/abs/2203.04955) [![TD-MPC2](http://img.shields.io/badge/tdmpc2-arxiv.2310.16828-B31B1B.svg)](https://arxiv.org/abs/2310.16828)
-
-[JAX](https://github.com/google/jax)/[Flax](https://github.com/google/flax)による TD-MPC および TD-MPC2 の実装です。
+[JAX](https://github.com/google/jax)/[Flax](https://github.com/google/flax)による [TD-MPC](https://arxiv.org/abs/2203.04955) および [TD-MPC2](https://arxiv.org/abs/2310.16828) の実装です。
 
 TD-MPC2 の公式実装が複数タスクの学習に対応しているのに対し、本実装はシンプルさに重点を置き、単一タスクの学習にのみ対応しています。
 
