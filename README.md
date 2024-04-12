@@ -7,7 +7,7 @@ TD-MPC2 の公式実装が複数タスクの学習に対応しているのに対
 [CleanRL](https://github.com/vwxyzjn/cleanrl) に触発されて本実装では、アルゴリズムの処理を複数のファイルに分散させるのではなく、一つのファイル内でアルゴリズムの流れを追いやすいように設計し、可読性の向上を図っています。
 
 ## 実行結果
-[DM-Control](https://github.com/google-deepmind/dm_control) 環境での学習テスト結果を以下に示します。
+以下は、[DM-Control](https://github.com/google-deepmind/dm_control) 環境でのテスト結果です。
 
 ### 学習曲線
 
